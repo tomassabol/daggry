@@ -9,9 +9,7 @@ const { name, price, description } = Astro.props;
 const descLines = description ? description.split("\\n") : [];
 ---
 
-<article
-  class="flex flex-col gap-1 relative transition-transform duration-200 hover:translate-x-1"
->
+<article class="flex flex-col gap-1 relative">
   <div class="flex justify-between items-baseline gap-4">
     <h3
       class="font-sans text-[1.1rem] font-medium m-0 leading-[1.4] max-sm:text-[1rem]"
